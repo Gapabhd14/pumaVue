@@ -4,6 +4,7 @@
   <div id="app">
 	<open-screen v-if="showcomponent === 0" @showComp="()=>{this.showcomponent++}"></open-screen>
 	  <!-- <three-d/> -->
+	  <p>עגע</p>
   </div>
 </template>
 
