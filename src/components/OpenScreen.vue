@@ -4,7 +4,6 @@
 	   <div id="startBut"  @click="() => { this.$emit('showComp', 1); }">
 			<p id="textStart">שנתחיל?</p>
 	   </div>
-
   </div>
 </template>
 
@@ -43,7 +42,7 @@ export default {
 	width: 25vw;
 	height: 7vh;
 	top: 45vh;
-	right: 32vw;
+	right: 37.5vw;
 	background-color: rgb(237, 125, 49);
 	border-radius: 1vh;
 	box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
@@ -54,18 +53,20 @@ export default {
 	padding:2vh ;
 }
 .titlePuma {
+	width: 100vw;
+	text-align: center;
 	color: rgb(237, 125, 49);
 	font-size: 40vw;
 	font-family: horev;
 	position: absolute;
-	right: 25vw;
 	animation: titleAnimation 1s 1 forwards;
 }
 @keyframes titleAnimation {
 	from {top: 0vh; opacity: 0.1;}
 	to {top: 20vh; opacity: 1;}
 }
-.model {
-	background-color: aqua;
+@-webkit-keyframeskeyframes titleAnimation {
+	from {top: 0vh; opacity: 0.1;}
+	to {top: 20vh; opacity: 1;}
 }
 </style>
