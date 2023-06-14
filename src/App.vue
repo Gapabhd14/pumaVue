@@ -3,14 +3,11 @@
 <template>
   <div id="app">
 	<open-screen v-if="showcomponent === 0" @showComp="()=>{this.showcomponent++}"></open-screen>
-	  <!-- <three-d/> -->
-	  <p>עגע</p>
   </div>
 </template>
 
 <script >
 import OpenScreen from '@/components/OpenScreen.vue';
-// import threeD from './components/threeD.vue';
 export default {
 	name: 'app',
 	data() {
