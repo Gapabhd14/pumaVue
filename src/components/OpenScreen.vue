@@ -43,7 +43,7 @@ export default {
 	width: 25vw;
 	height: 7vh;
 	top: 45vh;
-	right: 33vw;
+	right: 32vw;
 	background-color: rgb(237, 125, 49);
 	border-radius: 1vh;
 	box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
