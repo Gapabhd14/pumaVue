@@ -65,7 +65,7 @@ export default {
 	from {top: 0vh; opacity: 0.1;}
 	to {top: 20vh; opacity: 1;}
 }
-@-webkit-keyframeskeyframes titleAnimation {
+@-webkit-keyframes titleAnimation {
 	from {top: 0vh; opacity: 0.1;}
 	to {top: 20vh; opacity: 1;}
 }
